@@ -29,45 +29,6 @@
                   </objectView>
                </objects>
             </objectView>
-            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Termostat" posx="103.0" posy="136.0" width="350.0" height="280.0" angle="0" lock="true" template="Template">
-               <scripts/>
-               <objects>
-                  <objectView class="tesla.scada2.model.objects.Border3DView" name="Border3D" posx="0.0" posy="0.0" width="350.0" height="280.0" angle="0" lock="false" color="0x808080ff" linewidth="5" fill="true" fillcolor="0x000000ff" cornerradius="10.0" glass="true">
-                     <scripts/>
-                  </objectView>
-                  <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Buttons" posx="36.0" posy="181.0" width="279.0" height="50.0" angle="0" lock="false" template="Template">
-                     <scripts/>
-                     <objects>
-                        <objectView class="tesla.scada2.model.objects.OvalLightButtonView" name="Oval light button2" posx="120.0" posy="5.0" width="50.0" height="40.0" angle="0" lock="false" text="OK" textcolor="0xffffffff" fillcolor="0x0000ffff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
-                           <scripts/>
-                        </objectView>
-                        <objectView class="tesla.scada2.model.objects.OvalLightButtonView" name="Oval light button1" posx="61.0" posy="5.0" width="50.0" height="40.0" angle="0" lock="false" text="SET" textcolor="0xffffffff" fillcolor="0x0000ffff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
-                           <scripts/>
-                        </objectView>
-                        <objectView class="tesla.scada2.model.objects.LeftArrowButtonView" name="Up" posx="190.0" posy="0.0" width="50.0" height="40.0" angle="90" lock="false" text="" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
-                           <scripts/>
-                        </objectView>
-                        <objectView class="tesla.scada2.model.objects.RightArrowButtonView" name="Down" posx="239.0" posy="0.0" width="50.0" height="40.0" angle="90" lock="false" text="" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
-                           <scripts/>
-                        </objectView>
-                        <objectView class="tesla.scada2.model.objects.OvalLightButtonView" name="Oval light button" posx="0.0" posy="5.0" width="50.0" height="40.0" angle="0" lock="false" text="ON" textcolor="0xffffffff" fillcolor="0x0000ffff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
-                           <scripts/>
-                        </objectView>
-                     </objects>
-                  </objectView>
-                  <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Sensors" posx="36.0" posy="44.0" width="279.0" height="63.0" angle="0" lock="false" template="Template">
-                     <scripts/>
-                     <objects>
-                        <objectView class="tesla.scada2.model.objects.DigitalMeterView" name="Humidity - %" posx="151.0" posy="0.0" width="128.0" height="63.0" angle="0" lock="false" text="Humidity - %" textcolor="0x90ee90ff" bordercolor="0xa9a9a9ff" fillcolor="0x000000ff" type3d="0">
-                           <scripts/>
-                        </objectView>
-                        <objectView class="tesla.scada2.model.objects.DigitalMeterView" name="Temperature - °C" posx="0.0" posy="0.0" width="128.0" height="63.0" angle="0" lock="false" text="Temperature - °C" textcolor="0x90ee90ff" bordercolor="0xa9a9a9ff" fillcolor="0x000000ff" type3d="0">
-                           <scripts/>
-                        </objectView>
-                     </objects>
-                  </objectView>
-               </objects>
-            </objectView>
             <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Group Object" posx="670.0" posy="512.0" width="1247.0" height="558.0" angle="0" lock="false" template="Template">
                <scripts/>
                <objects>
@@ -182,6 +143,48 @@
                                  <scripts/>
                               </objectView>
                            </objects>
+                        </objectView>
+                     </objects>
+                  </objectView>
+               </objects>
+            </objectView>
+            <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Group Object" posx="103.0" posy="136.0" width="350.0" height="280.0" angle="0" lock="true" template="Template">
+               <scripts/>
+               <objects>
+                  <objectView class="tesla.scada2.model.objects.Border3DView" name="Border3D" posx="0.0" posy="0.0" width="350.0" height="280.0" angle="0" lock="false" color="0x808080ff" linewidth="5" fill="true" fillcolor="0x000000ff" cornerradius="10.0" glass="true">
+                     <scripts/>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Sensors" posx="36.0" posy="44.0" width="279.0" height="63.0" angle="0" lock="false" template="Template">
+                     <scripts/>
+                     <objects>
+                        <objectView class="tesla.scada2.model.objects.DigitalMeterView" name="Humidity - %" posx="151.0" posy="0.0" width="128.0" height="63.0" angle="0" lock="false" text="Humidity - %" textcolor="0x90ee90ff" bordercolor="0xa9a9a9ff" fillcolor="0x000000ff" type3d="0">
+                           <scripts/>
+                        </objectView>
+                        <objectView class="tesla.scada2.model.objects.DigitalMeterView" name="Temperature - °C" posx="0.0" posy="0.0" width="128.0" height="63.0" angle="0" lock="false" text="Temperature - °C" textcolor="0x90ee90ff" bordercolor="0xa9a9a9ff" fillcolor="0x000000ff" type3d="0">
+                           <scripts/>
+                        </objectView>
+                     </objects>
+                  </objectView>
+                  <objectView class="tesla.scada2.model.objects.GroupObjectView" name="Buttons" posx="36.0" posy="156.0" width="279.0" height="100.0" angle="0" lock="false" template="Template">
+                     <scripts/>
+                     <objects>
+                        <objectView class="tesla.scada2.model.objects.OvalLightButtonView" name="Oval light button2" posx="120.0" posy="5.0" width="50.0" height="40.0" angle="0" lock="false" text="OK" textcolor="0xffffffff" fillcolor="0x0000ffff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+                           <scripts/>
+                        </objectView>
+                        <objectView class="tesla.scada2.model.objects.OvalLightButtonView" name="Oval light button1" posx="61.0" posy="5.0" width="50.0" height="40.0" angle="0" lock="false" text="SET" textcolor="0xffffffff" fillcolor="0x0000ffff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+                           <scripts/>
+                        </objectView>
+                        <objectView class="tesla.scada2.model.objects.LeftArrowButtonView" name="Up" posx="190.0" posy="0.0" width="50.0" height="40.0" angle="90" lock="false" text="" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+                           <scripts/>
+                        </objectView>
+                        <objectView class="tesla.scada2.model.objects.RightArrowButtonView" name="Down" posx="239.0" posy="0.0" width="50.0" height="40.0" angle="90" lock="false" text="" textcolor="0xff0000ff" fillcolor="0xd3d3d3ff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+                           <scripts/>
+                        </objectView>
+                        <objectView class="tesla.scada2.model.objects.OvalLightButtonView" name="Oval light button" posx="0.0" posy="5.0" width="50.0" height="40.0" angle="0" lock="false" text="ON" textcolor="0xffffffff" fillcolor="0x0000ffff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+                           <scripts/>
+                        </objectView>
+                        <objectView class="tesla.scada2.model.objects.OvalLightButtonView" name="Oval light button4" posx="119.0" posy="60.0" width="50.0" height="40.0" angle="0" lock="false" text="Auto" textcolor="0xffffffff" fillcolor="0x0000ffff" type3d="0" fonttype="0" fontsize="0" textplacement="1" animation="true" underline="false">
+                           <scripts/>
                         </objectView>
                      </objects>
                   </objectView>
